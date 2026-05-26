@@ -1,33 +1,32 @@
 <!DOCTYPE html>
-<html lang="en">
-
+<html lang="pt-br">
 	<head>
 		<meta charset="UTF-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<title>Manual Padaria</title>
 		<link rel="stylesheet" href="css/index.css">
+		<link rel="stylesheet" href="css/recent.css">
 	</head>
-
 	<body>
-
 		<header class="navbar">
 			<div class="logo">Manual Software</div>
-
 			<button class="menu-toggle" id="menuToggle">
 				☰
 			</button>
-
 			<nav id="navMenu">
-				<a href="software/vr">VR</a>
-				<a href="software/win">Windows</a>
+				<a href="./software/vr">VR</a>
+				<a href="./software/win">Windows</a>
 			</nav>
 		</header>
-
 		<main class="content">
 			<h1>Welcome</h1>
 			<p>Select a section from the menu.</p>
+			<section class="recent">
+				<h2>Recent Accesses</h2>
+				<ul id="recentList"></ul>
+			</section>
 		</main>
-
 		<script src="js/index.js"></script>
+    <script src="js/recent.js"></script>
 	</body>
 </html>
