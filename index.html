@@ -5,28 +5,74 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<title>Manual Padaria</title>
 		<link rel="stylesheet" href="css/index.css">
-		<link rel="stylesheet" href="css/recent.css">
 	</head>
 	<body>
 		<header class="navbar">
 			<div class="logo">Manual Software</div>
-			<button class="menu-toggle" id="menuToggle">
-				☰
-			</button>
-			<nav id="navMenu">
-				<a href="./software/vr/vr.html">VR</a>
-				<a href="./software/win/win.html">Windows</a>
-			</nav>
 		</header>
 		<main class="content">
-			<h1>Welcome</h1>
-			<p>Select a section from the menu.</p>
-			<section class="recent">
-				<h2>Recent Accesses</h2>
-				<ul id="recentList"></ul>
+			<h1>Bem-vindo</h1>
+			<p class="subtitle">Selecione uma seção abaixo.</p>
+
+			<section class="modules">
+				<h2>Módulos</h2>
+				<div class="cards">
+					<a href="./software/vr/vr.html" class="card">
+						<span class="card-title">VR</span>
+						<p class="card-desc">Instruções e operações VRSoftware.</p>
+						<span class="card-arrow">→</span>
+					</a>
+					<a href="./software/win/win.html" class="card">
+						<span class="card-title">Windows</span>
+						<p class="card-desc">Manual do sistema Windows.</p>
+						<span class="card-arrow">→</span>
+					</a>
+					<a href="./software/catraca/catraca.html" class="card">
+						<span class="card-title">Catraca</span>
+						<p class="card-desc">Instruções e operações Catraca.</p>
+						<span class="card-arrow">→</span>
+					</a>
+					<a href="./software/balanca/balanca.html" class="card">
+						<span class="card-title">Balança</span>
+						<p class="card-desc">Instruções e operações Balança.</p>
+						<span class="card-arrow">→</span>
+					</a>
+					<a href="./software/cielo/cielo.html" class="card">
+						<span class="card-title">Cielo</span>
+						<p class="card-desc">Instruções e operações Cielo.</p>
+						<span class="card-arrow">→</span>
+					</a>
+				</div>
+			</section>
+			<section class="modules">
+				<h2>Contatos do suporte</h2>
+				<div class="cards">
+					<div class="card">
+						<div class="card-title">
+							<img class="card-icon" src="assets/img/logos/logo-vr.svg" alt="VRSoftware logo">
+							<span>VRSoftware</span>
+						</div>
+						<div class="card-desc">Telefone: 4040-4040</div>
+					</div>
+					<div class="card">
+						<div class="card-title">
+							<img class="card-icon" src="assets/img/logos/logo-sathi.png" alt="Sathi logo">
+							<span>Sathi</span>
+						</div>
+						<div class="card-desc">WhatsApp: (19) 99164-4542</div>
+						<div class="card-desc">Telefone: (19) 3705-1414</div>
+					</div>
+					<div class="card">
+						<div class="card-title">
+							<img class="card-icon" src="assets/img/logos/logo-cielo.png" alt="Cielo logo">
+							<span>Cielo</span>
+						</div>
+						<div class="card-desc">Telefone: 4002-5959</div>
+					</div>
+				</div>
 			</section>
 		</main>
-		<script src="js/index.js"></script>
-    <script src="js/recent.js"></script>
+
+		<script src="js/recent.js"></script>
 	</body>
 </html>
